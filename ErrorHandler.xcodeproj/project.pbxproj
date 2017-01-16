@@ -12,26 +12,28 @@
 		47B901CA1E2D2BA200F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
 		47B901CC1E2D2BA200F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
 		47B901CF1E2D2BA200F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
-		47B901DA1E2D2BA200F1F85D /* ErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901D91E2D2BA200F1F85D /* ErrorHandlerTests.swift */; };
-		47B901E51E2D2BA300F1F85D /* ErrorHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901E41E2D2BA300F1F85D /* ErrorHandlerUITests.swift */; };
+		47B901F31E2D2DA500F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
+		47B901F51E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B901F41E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist */; };
+		47B901F71E2D3DCF00F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
+		47B901F91E2D417300F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
+		47B9023D1E2D493400F1F85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9023C1E2D493400F1F85D /* AppDelegate.swift */; };
+		47B9024C1E2D497400F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
+		47B9024D1E2D497700F1F85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C61E2D2BA200F1F85D /* ViewController.swift */; };
+		47B9024E1E2D498C00F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
+		47B9024F1E2D498F00F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
+		47B902501E2D499300F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
+		47B902511E2D49AF00F1F85D /* com.monscierge.app2.alerts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B9022D1E2D463800F1F85D /* com.monscierge.app2.alerts.plist */; };
+		47B902521E2D49B700F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
+		47B902531E2D49BB00F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
+		47B9025B1E2D4AAD00F1F85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9025A1E2D4AAD00F1F85D /* AppDelegate.swift */; };
+		47B9026A1E2D4ABE00F1F85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C61E2D2BA200F1F85D /* ViewController.swift */; };
+		47B9026B1E2D4AC300F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
+		47B9026C1E2D4AC500F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
+		47B9026D1E2D4ACD00F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
+		47B9026E1E2D4AD000F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
+		47B9026F1E2D4AD400F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
+		47B902701E2D4AD700F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		47B901D61E2D2BA200F1F85D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B901B91E2D2BA200F1F85D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B901C01E2D2BA200F1F85D;
-			remoteInfo = ErrorHandler;
-		};
-		47B901E11E2D2BA300F1F85D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B901B91E2D2BA200F1F85D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B901C01E2D2BA200F1F85D;
-			remoteInfo = ErrorHandler;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		47B901C11E2D2BA200F1F85D /* ErrorHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErrorHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +43,17 @@
 		47B901CB1E2D2BA200F1F85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B901CE1E2D2BA200F1F85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B901D01E2D2BA200F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47B901D51E2D2BA200F1F85D /* ErrorHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B901D91E2D2BA200F1F85D /* ErrorHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerTests.swift; sourceTree = "<group>"; };
-		47B901DB1E2D2BA200F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47B901E01E2D2BA300F1F85D /* ErrorHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B901E41E2D2BA300F1F85D /* ErrorHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlerUITests.swift; sourceTree = "<group>"; };
-		47B901E61E2D2BA300F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B901F21E2D2DA500F1F85D /* MonsAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsAlert.swift; sourceTree = "<group>"; };
+		47B901F41E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.monscierge.ErrorHandler.alerts.plist; sourceTree = "<group>"; };
+		47B901F61E2D3DCF00F1F85D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		47B901F81E2D417300F1F85D /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		47B9022D1E2D463800F1F85D /* com.monscierge.app2.alerts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.monscierge.app2.alerts.plist; sourceTree = "<group>"; };
+		47B9023A1E2D493400F1F85D /* app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B9023C1E2D493400F1F85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47B902481E2D493400F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B902581E2D4AAD00F1F85D /* app3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B9025A1E2D4AAD00F1F85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47B902661E2D4AAD00F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901D21E2D2BA200F1F85D /* Frameworks */ = {
+		47B902371E2D493400F1F85D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901DD1E2D2BA300F1F85D /* Frameworks */ = {
+		47B902551E2D4AAD00F1F85D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				47B901C31E2D2BA200F1F85D /* ErrorHandler */,
-				47B901D81E2D2BA200F1F85D /* ErrorHandlerTests */,
-				47B901E31E2D2BA300F1F85D /* ErrorHandlerUITests */,
+				47B9023B1E2D493400F1F85D /* app2 */,
+				47B902591E2D4AAD00F1F85D /* app3 */,
 				47B901C21E2D2BA200F1F85D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				47B901C11E2D2BA200F1F85D /* ErrorHandler.app */,
-				47B901D51E2D2BA200F1F85D /* ErrorHandlerTests.xctest */,
-				47B901E01E2D2BA300F1F85D /* ErrorHandlerUITests.xctest */,
+				47B9023A1E2D493400F1F85D /* app2.app */,
+				47B902581E2D4AAD00F1F85D /* app3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +104,53 @@
 		47B901C31E2D2BA200F1F85D /* ErrorHandler */ = {
 			isa = PBXGroup;
 			children = (
+				47B902331E2D480E00F1F85D /* Supporting Files */,
 				47B901C41E2D2BA200F1F85D /* AppDelegate.swift */,
 				47B901C61E2D2BA200F1F85D /* ViewController.swift */,
 				47B901C81E2D2BA200F1F85D /* Main.storyboard */,
 				47B901CB1E2D2BA200F1F85D /* Assets.xcassets */,
 				47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */,
-				47B901D01E2D2BA200F1F85D /* Info.plist */,
+				47B901F21E2D2DA500F1F85D /* MonsAlert.swift */,
+				47B9022C1E2D45E600F1F85D /* AlertPlist */,
+				47B901F61E2D3DCF00F1F85D /* Alert.swift */,
+				47B901F81E2D417300F1F85D /* ErrorType.swift */,
 			);
 			path = ErrorHandler;
 			sourceTree = "<group>";
 		};
-		47B901D81E2D2BA200F1F85D /* ErrorHandlerTests */ = {
+		47B9022C1E2D45E600F1F85D /* AlertPlist */ = {
 			isa = PBXGroup;
 			children = (
-				47B901D91E2D2BA200F1F85D /* ErrorHandlerTests.swift */,
-				47B901DB1E2D2BA200F1F85D /* Info.plist */,
+				47B901F41E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist */,
+				47B9022D1E2D463800F1F85D /* com.monscierge.app2.alerts.plist */,
 			);
-			path = ErrorHandlerTests;
+			name = AlertPlist;
 			sourceTree = "<group>";
 		};
-		47B901E31E2D2BA300F1F85D /* ErrorHandlerUITests */ = {
+		47B902331E2D480E00F1F85D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				47B901E41E2D2BA300F1F85D /* ErrorHandlerUITests.swift */,
-				47B901E61E2D2BA300F1F85D /* Info.plist */,
+				47B901D01E2D2BA200F1F85D /* Info.plist */,
 			);
-			path = ErrorHandlerUITests;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47B9023B1E2D493400F1F85D /* app2 */ = {
+			isa = PBXGroup;
+			children = (
+				47B9023C1E2D493400F1F85D /* AppDelegate.swift */,
+				47B902481E2D493400F1F85D /* Info.plist */,
+			);
+			path = app2;
+			sourceTree = "<group>";
+		};
+		47B902591E2D4AAD00F1F85D /* app3 */ = {
+			isa = PBXGroup;
+			children = (
+				47B9025A1E2D4AAD00F1F85D /* AppDelegate.swift */,
+				47B902661E2D4AAD00F1F85D /* Info.plist */,
+			);
+			path = app3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,41 +173,39 @@
 			productReference = 47B901C11E2D2BA200F1F85D /* ErrorHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47B901D41E2D2BA200F1F85D /* ErrorHandlerTests */ = {
+		47B902391E2D493400F1F85D /* app2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47B901EC1E2D2BA300F1F85D /* Build configuration list for PBXNativeTarget "ErrorHandlerTests" */;
+			buildConfigurationList = 47B902491E2D493400F1F85D /* Build configuration list for PBXNativeTarget "app2" */;
 			buildPhases = (
-				47B901D11E2D2BA200F1F85D /* Sources */,
-				47B901D21E2D2BA200F1F85D /* Frameworks */,
-				47B901D31E2D2BA200F1F85D /* Resources */,
+				47B902361E2D493400F1F85D /* Sources */,
+				47B902371E2D493400F1F85D /* Frameworks */,
+				47B902381E2D493400F1F85D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				47B901D71E2D2BA200F1F85D /* PBXTargetDependency */,
 			);
-			name = ErrorHandlerTests;
-			productName = ErrorHandlerTests;
-			productReference = 47B901D51E2D2BA200F1F85D /* ErrorHandlerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = app2;
+			productName = app2;
+			productReference = 47B9023A1E2D493400F1F85D /* app2.app */;
+			productType = "com.apple.product-type.application";
 		};
-		47B901DF1E2D2BA300F1F85D /* ErrorHandlerUITests */ = {
+		47B902571E2D4AAD00F1F85D /* app3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47B901EF1E2D2BA300F1F85D /* Build configuration list for PBXNativeTarget "ErrorHandlerUITests" */;
+			buildConfigurationList = 47B902671E2D4AAD00F1F85D /* Build configuration list for PBXNativeTarget "app3" */;
 			buildPhases = (
-				47B901DC1E2D2BA300F1F85D /* Sources */,
-				47B901DD1E2D2BA300F1F85D /* Frameworks */,
-				47B901DE1E2D2BA300F1F85D /* Resources */,
+				47B902541E2D4AAD00F1F85D /* Sources */,
+				47B902551E2D4AAD00F1F85D /* Frameworks */,
+				47B902561E2D4AAD00F1F85D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				47B901E21E2D2BA300F1F85D /* PBXTargetDependency */,
 			);
-			name = ErrorHandlerUITests;
-			productName = ErrorHandlerUITests;
-			productReference = 47B901E01E2D2BA300F1F85D /* ErrorHandlerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = app3;
+			productName = app3;
+			productReference = 47B902581E2D4AAD00F1F85D /* app3.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,17 +219,18 @@
 				TargetAttributes = {
 					47B901C01E2D2BA200F1F85D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7VTHXSCD8X;
 						ProvisioningStyle = Automatic;
 					};
-					47B901D41E2D2BA200F1F85D = {
+					47B902391E2D493400F1F85D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7VTHXSCD8X;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 47B901C01E2D2BA200F1F85D;
 					};
-					47B901DF1E2D2BA300F1F85D = {
+					47B902571E2D4AAD00F1F85D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7VTHXSCD8X;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 47B901C01E2D2BA200F1F85D;
 					};
 				};
 			};
@@ -221,8 +248,8 @@
 			projectRoot = "";
 			targets = (
 				47B901C01E2D2BA200F1F85D /* ErrorHandler */,
-				47B901D41E2D2BA200F1F85D /* ErrorHandlerTests */,
-				47B901DF1E2D2BA300F1F85D /* ErrorHandlerUITests */,
+				47B902391E2D493400F1F85D /* app2 */,
+				47B902571E2D4AAD00F1F85D /* app3 */,
 			);
 		};
 /* End PBXProject section */
@@ -232,23 +259,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B901F51E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist in Resources */,
 				47B901CF1E2D2BA200F1F85D /* LaunchScreen.storyboard in Resources */,
 				47B901CC1E2D2BA200F1F85D /* Assets.xcassets in Resources */,
 				47B901CA1E2D2BA200F1F85D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901D31E2D2BA200F1F85D /* Resources */ = {
+		47B902381E2D493400F1F85D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B902511E2D49AF00F1F85D /* com.monscierge.app2.alerts.plist in Resources */,
+				47B9024E1E2D498C00F1F85D /* LaunchScreen.storyboard in Resources */,
+				47B9024F1E2D498F00F1F85D /* Assets.xcassets in Resources */,
+				47B9024C1E2D497400F1F85D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901DE1E2D2BA300F1F85D /* Resources */ = {
+		47B902561E2D4AAD00F1F85D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B9026D1E2D4ACD00F1F85D /* LaunchScreen.storyboard in Resources */,
+				47B9026C1E2D4AC500F1F85D /* Assets.xcassets in Resources */,
+				47B9026B1E2D4AC300F1F85D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,40 +295,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B901C71E2D2BA200F1F85D /* ViewController.swift in Sources */,
+				47B901F91E2D417300F1F85D /* ErrorType.swift in Sources */,
+				47B901F31E2D2DA500F1F85D /* MonsAlert.swift in Sources */,
+				47B901F71E2D3DCF00F1F85D /* Alert.swift in Sources */,
 				47B901C51E2D2BA200F1F85D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901D11E2D2BA200F1F85D /* Sources */ = {
+		47B902361E2D493400F1F85D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B901DA1E2D2BA200F1F85D /* ErrorHandlerTests.swift in Sources */,
+				47B9024D1E2D497700F1F85D /* ViewController.swift in Sources */,
+				47B9023D1E2D493400F1F85D /* AppDelegate.swift in Sources */,
+				47B902521E2D49B700F1F85D /* Alert.swift in Sources */,
+				47B902531E2D49BB00F1F85D /* ErrorType.swift in Sources */,
+				47B902501E2D499300F1F85D /* MonsAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47B901DC1E2D2BA300F1F85D /* Sources */ = {
+		47B902541E2D4AAD00F1F85D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B901E51E2D2BA300F1F85D /* ErrorHandlerUITests.swift in Sources */,
+				47B9026A1E2D4ABE00F1F85D /* ViewController.swift in Sources */,
+				47B902701E2D4AD700F1F85D /* ErrorType.swift in Sources */,
+				47B9026E1E2D4AD000F1F85D /* MonsAlert.swift in Sources */,
+				47B9026F1E2D4AD400F1F85D /* Alert.swift in Sources */,
+				47B9025B1E2D4AAD00F1F85D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		47B901D71E2D2BA200F1F85D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B901C01E2D2BA200F1F85D /* ErrorHandler */;
-			targetProxy = 47B901D61E2D2BA200F1F85D /* PBXContainerItemProxy */;
-		};
-		47B901E21E2D2BA300F1F85D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B901C01E2D2BA200F1F85D /* ErrorHandler */;
-			targetProxy = 47B901E11E2D2BA300F1F85D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		47B901C81E2D2BA200F1F85D /* Main.storyboard */ = {
@@ -412,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
 				INFOPLIST_FILE = ErrorHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.ErrorHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,65 +458,64 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
 				INFOPLIST_FILE = ErrorHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.ErrorHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		47B901ED1E2D2BA300F1F85D /* Debug */ = {
+		47B9024A1E2D493400F1F85D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ErrorHandlerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandlerTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
+				INFOPLIST_FILE = app2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErrorHandler.app/ErrorHandler";
 			};
 			name = Debug;
 		};
-		47B901EE1E2D2BA300F1F85D /* Release */ = {
+		47B9024B1E2D493400F1F85D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ErrorHandlerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandlerTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
+				INFOPLIST_FILE = app2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErrorHandler.app/ErrorHandler";
 			};
 			name = Release;
 		};
-		47B901F01E2D2BA300F1F85D /* Debug */ = {
+		47B902681E2D4AAD00F1F85D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ErrorHandlerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandlerUITests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
+				INFOPLIST_FILE = app3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.app3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ErrorHandler;
 			};
 			name = Debug;
 		};
-		47B901F11E2D2BA300F1F85D /* Release */ = {
+		47B902691E2D4AAD00F1F85D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ErrorHandlerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Monscierge.ErrorHandlerUITests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VTHXSCD8X;
+				INFOPLIST_FILE = app3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.app3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ErrorHandler;
 			};
 			name = Release;
 		};
@@ -505,20 +538,21 @@
 				47B901EB1E2D2BA300F1F85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		47B901EC1E2D2BA300F1F85D /* Build configuration list for PBXNativeTarget "ErrorHandlerTests" */ = {
+		47B902491E2D493400F1F85D /* Build configuration list for PBXNativeTarget "app2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47B901ED1E2D2BA300F1F85D /* Debug */,
-				47B901EE1E2D2BA300F1F85D /* Release */,
+				47B9024A1E2D493400F1F85D /* Debug */,
+				47B9024B1E2D493400F1F85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		47B901EF1E2D2BA300F1F85D /* Build configuration list for PBXNativeTarget "ErrorHandlerUITests" */ = {
+		47B902671E2D4AAD00F1F85D /* Build configuration list for PBXNativeTarget "app3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47B901F01E2D2BA300F1F85D /* Debug */,
-				47B901F11E2D2BA300F1F85D /* Release */,
+				47B902681E2D4AAD00F1F85D /* Debug */,
+				47B902691E2D4AAD00F1F85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

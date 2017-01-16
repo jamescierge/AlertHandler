@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>errorOne</key>
+	<dict>
+		<key>title</key>
+		<string>App 2 Title One</string>
+		<key>message</key>
+		<string>App 2 Message for errorOne</string>
+	</dict>
+	<key>errorTwo</key>
+	<dict>
+		<key>title</key>
+		<string>App 2 Title Two</string>
+		<key>message</key>
+		<string>App 2 Message for errorTwo</string>
+	</dict>
+</dict>
+</plist>
