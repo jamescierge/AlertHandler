@@ -1,6 +1,6 @@
 //
-//  AppDelegate.swift
-//  app3
+//  App2Delegate.swift
+//  app2
 //
 //  Created by James McPherson on 1/16/17.
 //  Copyright © 2017 James McPherson. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class App2Delegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47B901C01E2D2BA200F1F85D"
-               BuildableName = "ErrorHandler.app"
-               BlueprintName = "ErrorHandler"
+               BlueprintIdentifier = "47B902391E2D493400F1F85D"
+               BuildableName = "app2.app"
+               BlueprintName = "app2"
                ReferencedContainer = "container:ErrorHandler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47B901D41E2D2BA200F1F85D"
-               BuildableName = "ErrorHandlerTests.xctest"
-               BlueprintName = "ErrorHandlerTests"
-               ReferencedContainer = "container:ErrorHandler.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47B901DF1E2D2BA300F1F85D"
-               BuildableName = "ErrorHandlerUITests.xctest"
-               BlueprintName = "ErrorHandlerUITests"
-               ReferencedContainer = "container:ErrorHandler.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47B901C01E2D2BA200F1F85D"
-            BuildableName = "ErrorHandler.app"
-            BlueprintName = "ErrorHandler"
+            BlueprintIdentifier = "47B902391E2D493400F1F85D"
+            BuildableName = "app2.app"
+            BlueprintName = "app2"
             ReferencedContainer = "container:ErrorHandler.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47B901C01E2D2BA200F1F85D"
-            BuildableName = "ErrorHandler.app"
-            BlueprintName = "ErrorHandler"
+            BlueprintIdentifier = "47B902391E2D493400F1F85D"
+            BuildableName = "app2.app"
+            BlueprintName = "app2"
             ReferencedContainer = "container:ErrorHandler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47B901C01E2D2BA200F1F85D"
-            BuildableName = "ErrorHandler.app"
-            BlueprintName = "ErrorHandler"
+            BlueprintIdentifier = "47B902391E2D493400F1F85D"
+            BuildableName = "app2.app"
+            BlueprintName = "app2"
             ReferencedContainer = "container:ErrorHandler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
