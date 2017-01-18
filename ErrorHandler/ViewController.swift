@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonOne: UIButton!
     @IBOutlet weak var buttonTwo: UIButton!
     
+    var alertHelper = AlertHelper.sharedInstance
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,16 +28,24 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClick(sender: UIButton) {
+        var title = ""
+        var message = ""
         switch sender.tag {
         case 1:
-            MonsAlert.sharedInstance.showAlert(forType: .errorOne, target: self)
+            title = alertHelper.string(withKey: "title_ErrorOccurred")
+            message = alertHelper.string(withKey: "message_SomeMessage")
             break
         case 2:
-            MonsAlert.sharedInstance.showAlert(forType: .errorTwo, target: self)
+            title = AlertHelper.sharedInstance.string(withKey: "title_Success")
+            message = alertHelper.string(withKey: "message_SomeOtherMessage")
             break
         default:
             break
         }
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
     
 }

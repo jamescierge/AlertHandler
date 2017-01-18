@@ -7,35 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4760BAC61E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAC51E2FC9E800C23E3C /* BaseAppAlertStrings.plist */; };
+		4760BAC71E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAC51E2FC9E800C23E3C /* BaseAppAlertStrings.plist */; };
+		4760BAC81E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAC51E2FC9E800C23E3C /* BaseAppAlertStrings.plist */; };
+		4760BACA1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAC91E2FCF5E00C23E3C /* AlertHelper.swift */; };
+		4760BACB1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAC91E2FCF5E00C23E3C /* AlertHelper.swift */; };
+		4760BACC1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAC91E2FCF5E00C23E3C /* AlertHelper.swift */; };
+		4760BACE1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BACD1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist */; };
+		4760BACF1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BACD1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist */; };
+		4760BAD01E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4760BACD1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist */; };
 		47B901C51E2D2BA200F1F85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C41E2D2BA200F1F85D /* AppDelegate.swift */; };
 		47B901C71E2D2BA200F1F85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C61E2D2BA200F1F85D /* ViewController.swift */; };
 		47B901CA1E2D2BA200F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
 		47B901CC1E2D2BA200F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
 		47B901CF1E2D2BA200F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
-		47B901F31E2D2DA500F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
 		47B901F51E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B901F41E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist */; };
-		47B901F71E2D3DCF00F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
-		47B901F91E2D417300F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
 		47B9023D1E2D493400F1F85D /* App2Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9023C1E2D493400F1F85D /* App2Delegate.swift */; };
 		47B9024C1E2D497400F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
 		47B9024D1E2D497700F1F85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C61E2D2BA200F1F85D /* ViewController.swift */; };
 		47B9024E1E2D498C00F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
 		47B9024F1E2D498F00F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
-		47B902501E2D499300F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
 		47B902511E2D49AF00F1F85D /* com.monscierge.app2.alerts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47B9022D1E2D463800F1F85D /* com.monscierge.app2.alerts.plist */; };
-		47B902521E2D49B700F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
-		47B902531E2D49BB00F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
 		47B9025B1E2D4AAD00F1F85D /* App3Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9025A1E2D4AAD00F1F85D /* App3Delegate.swift */; };
 		47B9026A1E2D4ABE00F1F85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901C61E2D2BA200F1F85D /* ViewController.swift */; };
 		47B9026B1E2D4AC300F1F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901C81E2D2BA200F1F85D /* Main.storyboard */; };
 		47B9026C1E2D4AC500F1F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CB1E2D2BA200F1F85D /* Assets.xcassets */; };
 		47B9026D1E2D4ACD00F1F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */; };
-		47B9026E1E2D4AD000F1F85D /* MonsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F21E2D2DA500F1F85D /* MonsAlert.swift */; };
-		47B9026F1E2D4AD400F1F85D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F61E2D3DCF00F1F85D /* Alert.swift */; };
-		47B902701E2D4AD700F1F85D /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B901F81E2D417300F1F85D /* ErrorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4760BAC51E2FC9E800C23E3C /* BaseAppAlertStrings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaseAppAlertStrings.plist; sourceTree = "<group>"; };
+		4760BAC91E2FCF5E00C23E3C /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		4760BACD1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppTwoAlertStrings.plist; sourceTree = "<group>"; };
 		47B901C11E2D2BA200F1F85D /* ErrorHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErrorHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B901C41E2D2BA200F1F85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47B901C61E2D2BA200F1F85D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +46,7 @@
 		47B901CB1E2D2BA200F1F85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B901CE1E2D2BA200F1F85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B901D01E2D2BA200F1F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47B901F21E2D2DA500F1F85D /* MonsAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsAlert.swift; sourceTree = "<group>"; };
 		47B901F41E2D2FD900F1F85D /* com.monscierge.ErrorHandler.alerts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.monscierge.ErrorHandler.alerts.plist; sourceTree = "<group>"; };
-		47B901F61E2D3DCF00F1F85D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		47B901F81E2D417300F1F85D /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		47B9022D1E2D463800F1F85D /* com.monscierge.app2.alerts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.monscierge.app2.alerts.plist; sourceTree = "<group>"; };
 		47B9023A1E2D493400F1F85D /* app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B9023C1E2D493400F1F85D /* App2Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = App2Delegate.swift; path = ../app2/App2Delegate.swift; sourceTree = "<group>"; };
@@ -108,10 +108,8 @@
 				47B901C81E2D2BA200F1F85D /* Main.storyboard */,
 				47B901CB1E2D2BA200F1F85D /* Assets.xcassets */,
 				47B901CD1E2D2BA200F1F85D /* LaunchScreen.storyboard */,
-				47B901F21E2D2DA500F1F85D /* MonsAlert.swift */,
+				4760BAC91E2FCF5E00C23E3C /* AlertHelper.swift */,
 				47B9022C1E2D45E600F1F85D /* AlertPlist */,
-				47B901F61E2D3DCF00F1F85D /* Alert.swift */,
-				47B901F81E2D417300F1F85D /* ErrorType.swift */,
 			);
 			path = ErrorHandler;
 			sourceTree = "<group>";
@@ -131,6 +129,8 @@
 				47B901D01E2D2BA200F1F85D /* Info.plist */,
 				47B902481E2D493400F1F85D /* app2-info.plist */,
 				47B902661E2D4AAD00F1F85D /* app3-info.plist */,
+				4760BAC51E2FC9E800C23E3C /* BaseAppAlertStrings.plist */,
+				4760BACD1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,6 +255,8 @@
 				47B901CF1E2D2BA200F1F85D /* LaunchScreen.storyboard in Resources */,
 				47B901CC1E2D2BA200F1F85D /* Assets.xcassets in Resources */,
 				47B901CA1E2D2BA200F1F85D /* Main.storyboard in Resources */,
+				4760BAC61E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */,
+				4760BACE1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +268,8 @@
 				47B9024E1E2D498C00F1F85D /* LaunchScreen.storyboard in Resources */,
 				47B9024F1E2D498F00F1F85D /* Assets.xcassets in Resources */,
 				47B9024C1E2D497400F1F85D /* Main.storyboard in Resources */,
+				4760BAC71E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */,
+				4760BACF1E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B9026D1E2D4ACD00F1F85D /* LaunchScreen.storyboard in Resources */,
+				4760BAC81E2FC9E800C23E3C /* BaseAppAlertStrings.plist in Resources */,
 				47B9026C1E2D4AC500F1F85D /* Assets.xcassets in Resources */,
+				4760BAD01E2FFC1E00C23E3C /* AppTwoAlertStrings.plist in Resources */,
 				47B9026B1E2D4AC300F1F85D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,10 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4760BACA1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */,
 				47B901C71E2D2BA200F1F85D /* ViewController.swift in Sources */,
-				47B901F91E2D417300F1F85D /* ErrorType.swift in Sources */,
-				47B901F31E2D2DA500F1F85D /* MonsAlert.swift in Sources */,
-				47B901F71E2D3DCF00F1F85D /* Alert.swift in Sources */,
 				47B901C51E2D2BA200F1F85D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,11 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4760BACB1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */,
 				47B9024D1E2D497700F1F85D /* ViewController.swift in Sources */,
 				47B9023D1E2D493400F1F85D /* App2Delegate.swift in Sources */,
-				47B902521E2D49B700F1F85D /* Alert.swift in Sources */,
-				47B902531E2D49BB00F1F85D /* ErrorType.swift in Sources */,
-				47B902501E2D499300F1F85D /* MonsAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,10 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4760BACC1E2FCF5E00C23E3C /* AlertHelper.swift in Sources */,
 				47B9026A1E2D4ABE00F1F85D /* ViewController.swift in Sources */,
-				47B902701E2D4AD700F1F85D /* ErrorType.swift in Sources */,
-				47B9026E1E2D4AD000F1F85D /* MonsAlert.swift in Sources */,
-				47B9026F1E2D4AD400F1F85D /* Alert.swift in Sources */,
 				47B9025B1E2D4AAD00F1F85D /* App3Delegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +539,7 @@
 				47B9024B1E2D493400F1F85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47B902671E2D4AAD00F1F85D /* Build configuration list for PBXNativeTarget "app3" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +548,7 @@
 				47B902691E2D4AAD00F1F85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

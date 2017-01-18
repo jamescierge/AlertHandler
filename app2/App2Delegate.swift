@@ -16,6 +16,7 @@ class App2Delegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AlertHelper.sharedInstance.registerResource(withName: "AppTwoAlertStrings")
         return true
     }
 
